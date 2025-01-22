@@ -5,3 +5,7 @@ print(total)
 from function import num as n
 result=n(44)
 print(result) 
+
+
+
+# dfhkfs,jgfkgf 
