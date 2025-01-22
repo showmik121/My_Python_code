@@ -1,0 +1,28 @@
+num=[1,23,4,31,12,3,4]
+print(num[3],num[0])
+print(num[2:5]) 
+print(num[2:7:2]) 
+print(num[::-1])
+num.append(25)
+print(num)
+num.insert(2,71)
+print(num)
+num.remove(12)
+print(num)
+num.pop(1)
+print(num)
+print(num.count(4))
+num.sort()
+print(num)
+num.reverse()
+print(num)
+index = num.index(31)
+print(index)
+if 12 in num:
+    index=num.index(12)
+    print(index)
+else:
+    print(-1)
+num1=[2,3,4,2,3]
+num.extend(num1)
+print(num)
